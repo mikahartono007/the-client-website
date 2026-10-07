@@ -1,0 +1,35 @@
+body{
+    background-color: #1c1c1c;
+}
+
+h1{
+    color: rgb(131, 230, 131);
+    border-color: white;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+.veldverkenner{
+    padding: 1em;
+}
+.veldverkenner img{
+    border-radius: 1rem;
+}
+
+.veldverkenner a{
+    border-radius: 5em;
+    border: 2px solid white;
+    padding: .5rem;
+    display: inline-block;
+    margin-top: 15px;
+}
