@@ -22,8 +22,10 @@ a{
 .veldverkenner{
     padding: 1em;
 }
+
 .veldverkenner img{
     border-radius: 1rem;
+    align-items: center;
 }
 
 .veldverkenner a{
@@ -32,4 +34,20 @@ a{
     padding: .5rem;
     display: inline-block;
     margin-top: 15px;
+}
+
+
+.nieuws{
+    padding: 1em;
+}
+
+.nieuws a{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+    overflow-x: auto;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    scroll-behavior: smooth;
 }
