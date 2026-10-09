@@ -1,5 +1,5 @@
 body{
-    background-color: #1c1c1c;
+    background-color: #ffffff;
 }
 
 h1{
@@ -8,15 +8,15 @@ h1{
 }
 
 h2{
-    color: white;
+    color: black;
 }
 
 p{
-    color: white;
+    color: black
 }
 
 a{
-    color: white;
+    color: black;
 }
 
 .veldverkenner{
@@ -30,7 +30,7 @@ a{
 
 .veldverkenner a{
     border-radius: 5em;
-    border: 2px solid white;
+    border: 2px solid green;
     padding: .5rem;
     display: inline-block;
     margin-top: 15px;
@@ -41,13 +41,24 @@ a{
     padding: 1em;
 }
 
-.nieuws a{
+.nieuws-scroll ul{
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 1200px;
     gap: 1em;
     overflow-x: auto;
-    padding: 1rem;
     padding-bottom: 1rem;
-    scroll-behavior: smooth;
+}
+
+.nieuws-scroll li{
+    background-color: rgb(194, 240, 125);
+    padding: 1rem;
+    border-radius: 1rem;
+    max-width: 350px;
+    flex-shrink: 0;
+}
+
+.nieuws-scroll img{
+    border-radius: 1rem;
 }
